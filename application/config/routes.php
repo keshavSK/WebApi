@@ -55,4 +55,8 @@ $route['translate_uri_dashes'] = FALSE;
 
 // API routes
 $route['api/sign_up'] = 'UserController/signUp';
+$route['api/users'] = 'UserController/getUsers';
+$route['api/user_details'] = 'UserController/getUserDetails';
+$route['api/delete_user'] = 'UserController/deleteUser';
+$route['api/update_user'] = 'UserController/updateUserDetails';
 
